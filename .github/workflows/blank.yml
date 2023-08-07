@@ -39,8 +39,8 @@ jobs:
         run: mvn --version
       - name: python version
         run: python --version
-      - name: Docker version
-        run: Docker --version
+      - name: docker version
+        run: docker --version
       - name: terraform version 
         run: terraform --version
       - name: java version
